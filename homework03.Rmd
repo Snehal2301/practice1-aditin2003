@@ -34,7 +34,7 @@ gapMinder <- read.csv("gapminder-5060.csv")
 summary(gapMinder)
 ```
 ```{r}
-subset_gapMinder <- subset(gapMinder, country %in% c( "Canada","Australia"))
+subset_gapMinder <- subset(gapMinder, country %in% c( "Canada","Australia","United States"))
 
 ```
 
